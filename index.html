@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara MiLe - AI-Powered Microlearning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#" class="nav-logo">Clara MiLe</a>
+        <ul class="nav-links">
+            <li><a href="#overview" data-translate="nav.overview">Overview</a></li>
+            <li><a href="#features" data-translate="nav.features">Features</a></li>
+            <li><a href="#industries" data-translate="nav.industries">Industries</a></li>
+            <li><a href="#problems" data-translate="nav.problems">Problems We Solve</a></li>
+            <li><a href="#resources" data-translate="nav.resources">Resources</a></li>
+        </ul>
+        <div class="language-selector">
+            <button class="lang-btn active" data-lang="en">
+                <img src="https://flagcdn.com/w20/us.png" alt="English" class="flag-icon">
+            </button>
+            <button class="lang-btn" data-lang="pt">
+                <img src="https://flagcdn.com/w20/br.png" alt="Português" class="flag-icon">
+            </button>
+            <button class="lang-btn" data-lang="es">
+                <img src="https://flagcdn.com/w20/es.png" alt="Español" class="flag-icon">
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-translate="hero.title">Transform Corporate Learning with AI</h1>
+            <p class="hero-subtitle" data-translate="hero.subtitle">Empower your workforce with personalized, bite-sized learning experiences that drive engagement and retention.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="cta-button primary" data-translate="hero.scheduleDemo">Schedule a Demo</a>
+                <a href="#problems" class="cta-button secondary" data-translate="hero.learnMore">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">85%</span>
+                    <span class="stat-label" data-translate="hero.stats.retention">Knowledge Retention</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">92%</span>
+                    <span class="stat-label" data-translate="hero.stats.learners">Active Learners</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">$2.5M</span>
+                    <span class="stat-label" data-translate="hero.stats.savings">Annual Savings per Client</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problems" class="problem">
+        <h2 data-translate="problems.title">The Corporate Learning Crisis</h2>
+        <div class="problem-grid">
+            <div class="problem-card">
+                <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 data-translate="problems.retention.title">Poor Knowledge Retention</h3>
+                <p data-translate="problems.retention.description">Traditional training methods result in only 10% knowledge retention after 30 days.</p>
+                <ul>
+                    <li data-translate="problems.retention.items.0">Long, overwhelming training sessions</li>
+                    <li data-translate="problems.retention.items.1">One-size-fits-all approach</li>
+                    <li data-translate="problems.retention.items.2">No reinforcement mechanism</li>
+                </ul>
+            </div>
+            <div class="problem-card">
+                <div class="icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3 data-translate="problems.time.title">Time Constraints</h3>
+                <p data-translate="problems.time.description">Employees struggle to find time for training in their busy schedules.</p>
+                <ul>
+                    <li data-translate="problems.time.items.0">Limited attention spans</li>
+                    <li data-translate="problems.time.items.1">Competing priorities</li>
+                    <li data-translate="problems.time.items.2">Training fatigue</li>
+                </ul>
+            </div>
+            <div class="problem-card">
+                <div class="icon">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <h3 data-translate="problems.cost.title">High Training Costs</h3>
+                <p data-translate="problems.cost.description">Companies spend billions annually on ineffective training programs.</p>
+                <ul>
+                    <li data-translate="problems.cost.items.0">Expensive content creation</li>
+                    <li data-translate="problems.cost.items.1">Training infrastructure costs</li>
+                    <li data-translate="problems.cost.items.2">Lost productivity time</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution">
+        <h2 data-translate="solution.title">AI-Powered Learning Experience</h2>
+        <div class="solution-grid">
+            <div class="solution-card">
+                <div class="icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3 data-translate="solution.ai.title">AI-First Platform</h3>
+                <p data-translate="solution.ai.description">Our AI engine personalizes learning paths and adapts content in real-time.</p>
+                <ul>
+                    <li data-translate="solution.ai.items.0">Smart content recommendations</li>
+                    <li data-translate="solution.ai.items.1">Adaptive learning paths</li>
+                    <li data-translate="solution.ai.items.2">Performance analytics</li>
+                </ul>
+            </div>
+            <div class="solution-card">
+                <div class="icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3 data-translate="solution.delivery.title">Omnichannel Delivery</h3>
+                <p data-translate="solution.delivery.description">Access learning content anytime, anywhere, on any device.</p>
+                <ul>
+                    <li data-translate="solution.delivery.items.0">Mobile-first design</li>
+                    <li data-translate="solution.delivery.items.1">Offline access</li>
+                    <li data-translate="solution.delivery.items.2">Cross-platform sync</li>
+                </ul>
+            </div>
+            <div class="solution-card">
+                <div class="icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h3 data-translate="solution.personalization.title">Personalized Learning</h3>
+                <p data-translate="solution.personalization.description">Tailored content and pace based on individual needs and progress.</p>
+                <ul>
+                    <li data-translate="solution.personalization.items.0">Individual learning paths</li>
+                    <li data-translate="solution.personalization.items.1">Progress tracking</li>
+                    <li data-translate="solution.personalization.items.2">Skill gap analysis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section class="metrics">
+        <h2 data-translate="metrics.title">Proven Results</h2>
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <span class="metric-number" data-translate="metrics.retention.value">85%</span>
+                <span class="metric-label" data-translate="metrics.retention.label">Knowledge Retention</span>
+                <p class="metric-description" data-translate="metrics.retention.description">Compared to 10% with traditional methods</p>
+            </div>
+            <div class="metric-card">
+                <span class="metric-number" data-translate="metrics.learners.value">92%</span>
+                <span class="metric-label" data-translate="metrics.learners.label">Active Learners</span>
+                <p class="metric-description" data-translate="metrics.learners.description">Higher engagement rates</p>
+            </div>
+            <div class="metric-card">
+                <span class="metric-number" data-translate="metrics.time.value">60%</span>
+                <span class="metric-label" data-translate="metrics.time.label">Time Saved</span>
+                <p class="metric-description" data-translate="metrics.time.description">In training delivery</p>
+            </div>
+            <div class="metric-card">
+                <span class="metric-number" data-translate="metrics.savings.value">$2.5M</span>
+                <span class="metric-label" data-translate="metrics.savings.label">Annual Savings</span>
+                <p class="metric-description" data-translate="metrics.savings.description">Per enterprise client</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="social-proof">
+        <h2 data-translate="socialProof.title">Trusted by Industry Leaders</h2>
+        <div class="client-logos">
+            <img src="https://logodownload.org/wp-content/uploads/2020/02/caoa-chery-logo.png" alt="CAOA" onerror="this.src='https://logodownload.org/wp-content/uploads/2020/02/caoa-chery-logo.png'; this.onerror=null;">
+        </div>
+        <div class="testimonial">
+            <blockquote data-translate="socialProof.testimonial">"A Clara MiLe revolucionou a forma como treinamos nossos mecânicos. A plataforma com IA oferece experiências de aprendizado personalizadas que realmente engajam nossa equipe técnica."</blockquote>
+            <cite data-translate="socialProof.author">- CAOA, Treinamento Técnico</cite>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-grid">
+            <div class="contact-content">
+                <h2 data-translate="contact.title">Ready to Transform Your Learning Experience?</h2>
+                <p data-translate="contact.subtitle">Schedule a demo to see how Clara MiLe can revolutionize your corporate training program.</p>
+                <div class="contact-benefits">
+                    <div class="benefit-item">
+                        <div class="icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="benefit-text">
+                            <h4 data-translate="contact.benefits.consultation.title">Free Consultation</h4>
+                            <p data-translate="contact.benefits.consultation.description">Get expert advice on implementing microlearning in your organization</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="benefit-text">
+                            <h4 data-translate="contact.benefits.implementation.title">Quick Implementation</h4>
+                            <p data-translate="contact.benefits.implementation.description">Start transforming your training program in as little as 2 weeks</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="benefit-text">
+                            <h4 data-translate="contact.benefits.roi.title">Proven ROI</h4>
+                            <p data-translate="contact.benefits.roi.description">See measurable results within the first 3 months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3 data-translate="contact.form.title">Schedule Your Demo</h3>
+                <p data-translate="contact.form.subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
+                <form id="demo-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required data-translate="contact.form.name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Work Email" required data-translate="contact.form.email">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" data-translate="contact.form.phone">
+                    </div>
+                    <div class="form-group">
+                        <select required data-translate="contact.form.companySize">
+                            <option value="">Company Size</option>
+                            <option value="1-50">1-50 employees</option>
+                            <option value="51-200">51-200 employees</option>
+                            <option value="201-500">201-500 employees</option>
+                            <option value="501-1000">501-1000 employees</option>
+                            <option value="1000+">1000+ employees</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="cta-button primary" data-translate="contact.form.submit">Schedule Demo</button>
+                    <p class="form-footer">
+                        <span data-translate="contact.form.privacy">By submitting this form, you agree to our</span>
+                        <a href="#" data-translate="contact.form.privacyLink">Privacy Policy</a>
+                        <span data-translate="contact.form.terms">and</span>
+                        <a href="#" data-translate="contact.form.termsLink">Terms of Service</a>.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4 data-translate="footer.product.title">Product</h4>
+                    <ul>
+                        <li><a href="#features" data-translate="footer.product.links.0">Features</a></li>
+                        <li><a href="#industries" data-translate="footer.product.links.1">Industries</a></li>
+                        <li><a href="#problems" data-translate="footer.product.links.2">Problems We Solve</a></li>
+                        <li><a href="#resources" data-translate="footer.product.links.3">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.company.title">Company</h4>
+                    <ul>
+                        <li><a href="#" data-translate="footer.company.links.0">About Us</a></li>
+                        <li><a href="#" data-translate="footer.company.links.1">Careers</a></li>
+                        <li><a href="#" data-translate="footer.company.links.2">Blog</a></li>
+                        <li><a href="#" data-translate="footer.company.links.3">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.resources.title">Resources</h4>
+                    <ul>
+                        <li><a href="#" data-translate="footer.resources.links.0">Case Studies</a></li>
+                        <li><a href="#" data-translate="footer.resources.links.1">Webinars</a></li>
+                        <li><a href="#" data-translate="footer.resources.links.2">Research</a></li>
+                        <li><a href="#" data-translate="footer.resources.links.3">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.legal.title">Legal</h4>
+                    <ul>
+                        <li><a href="#" data-translate="footer.legal.links.0">Privacy Policy</a></li>
+                        <li><a href="#" data-translate="footer.legal.links.1">Terms of Service</a></li>
+                        <li><a href="#" data-translate="footer.legal.links.2">Cookie Policy</a></li>
+                        <li><a href="#" data-translate="footer.legal.links.3">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <a href="#" class="nav-logo">Clara MiLe</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="footer-copyright" data-translate="footer.copyright">
+                    © 2024 Clara MiLe. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
